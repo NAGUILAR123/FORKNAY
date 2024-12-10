@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intencion);
             } else {
                 // Mostrar un mensaje de error si las credenciales son incorrectas
-                Toast.makeText(getApplicationContext(), "Verifica el usuario y el password", Toast.LENGTH_LONG)
+                Toast.makeText(getApplicationContext(), "CONFIRMA Y VERIFICA EL USUARIO Y CONTRASEÑA", Toast.LENGTH_LONG)
                         .show();
             }
         });
