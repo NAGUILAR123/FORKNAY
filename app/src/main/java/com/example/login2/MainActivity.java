@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
             String password = pass.getText().toString();
 
             // Verificar si el correo y contraseña son correctos
+            // De lo contrario no dejara ingresar ya que los datos son INCORRECTOS 
             if (correo.equals("tati47926@gmail.com") && password.equals("12356")) {
                 // Si las credenciales son correctas, abrir la integument actividad
                 Intent intencion = new Intent(getApplicationContext(), Ventana2.class);
